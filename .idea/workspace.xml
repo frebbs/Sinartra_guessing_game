@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a85a6f7-64ba-4023-9117-86fee849172a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GemFile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/WebGuesser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WebGuesser.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logo.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -58,7 +59,7 @@
       <updated>1578335493440</updated>
       <workItem from="1578335495508" duration="120000" />
       <workItem from="1578335662557" duration="5932000" />
-      <workItem from="1578343332979" duration="4886000" />
+      <workItem from="1578343332979" duration="6116000" />
     </task>
     <servers />
   </component>
