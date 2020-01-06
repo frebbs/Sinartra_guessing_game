@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'sinatra/reloader'
 
-rand_num = rand(101)
+rand_num = rand(1..101)
 player_wins = 0
 
 get '/' do
@@ -12,10 +12,14 @@ get '/' do
     message = "You have won, try to guess the new number!"
     player_wins += 1
     rand_num = rand(101)
+  elsif user_guess.between?(rand_num, rand_num + 10)
+    message = "Close, but still too high!"
+  elsif user_guess.between?(rand_num - 10, rand_num)
+    message = "Close, but still too low"
   elsif user_guess > rand_num
-    message = "That guess was too high!"
+    message = "That guess was way too high!"
   elsif user_guess < rand_num && user_guess > 0
-    message = "That guess was too low!"
+    message = "That guess was way too low!"
   else
     message = "Please enter a number to begin the game"
   end
