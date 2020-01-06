@@ -1,6 +1,6 @@
 require 'sinatra'
 require 'sinatra/reloader'
-require './helpers/check_user_guess'
+require './helpers/check_user_guess_helpers'
 
 rand_num = rand(1..101)
 player_wins = 0

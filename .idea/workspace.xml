@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a85a6f7-64ba-4023-9117-86fee849172a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guesser.rb" beforeDir="false" afterPath="$PROJECT_DIR$/guesser.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/check_user_guess.rb" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/check_user_guess.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/check_user_guess.rb" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/check_user_guess_helpers.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
       <updated>1578335493440</updated>
       <workItem from="1578335495508" duration="120000" />
       <workItem from="1578335662557" duration="5932000" />
-      <workItem from="1578343332979" duration="1635000" />
+      <workItem from="1578343332979" duration="1862000" />
     </task>
     <servers />
   </component>
