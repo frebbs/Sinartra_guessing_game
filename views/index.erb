@@ -5,33 +5,30 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Sinatra Test Page</title>
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-  <h1>Guess the random number</h1>
-  <p>When this page loaded, ruby generated a random number between 1 and 100, you need to enter a number
+<div class="container">
+  <section>
+    <h1>Guess the random number</h1>
+    <p>When this page loaded, ruby generated a random number between 1 and 100, you need to enter a number
       between this range and guess the correct number to win the game</p><br>
-  <p><%= message %></p>
-  <p>You entered: <%= params["guess"] %></p>
+    <p><%= message %></p>
+    <p>You entered: <%= params["guess"] %></p>
+  </section>
 
-  <form action="">
-    <label for="guess">Enter a guess:</label>
-    <input type="text" name="guess" /><br><br>
-    <input type="submit" value="Submit" />
-  </form>
-  <br>
+  <section>
+    <form action="">
+      <label for="guess">Enter a guess:</label>
+      <input type="text" name="guess" class="guess_input"/><br><br>
+      <input type="submit" value="Submit"/>
+    </form>
+  </section>
 
   <p>You have won: <%= win_count %> time(s)</p>
-  <%# if params["guess"].to_i == rand_num %>
-<!--    <p>You have won!</p>-->
-  <%# end %>
+  <p><%= cheat_mode %></p>
+</div>
 
-  <%# if params["guess"].to_i > rand_num %>
-<!--    <p>Thats too high!</p>-->
-  <%# end %>
-
-  <%# if params["guess"].to_i < rand_num %>
-<!--    <p>Thats too low!</p>-->
-  <%# end %>
 
 </body>
 </html>

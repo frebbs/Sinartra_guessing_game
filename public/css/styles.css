@@ -1,0 +1,13 @@
+body {
+    background-color: darkslategray;
+    color: white;
+}
+
+.container {
+    max-width: 80%;
+}
+
+.guess_input {
+    background-color: darkslategray;
+    color: white;
+}
