@@ -1,8 +1,10 @@
 require 'sinatra'
+require 'sinatra/reloader'
+
+rand_num = rand(101)
 
 get '/' do
-  rand_num = rand(101)
-  "You random number was #{rand_num}"
+  "Your random number was #{rand_num}"
   #erb :index
 end
 
