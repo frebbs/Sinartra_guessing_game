@@ -1,12 +1,13 @@
 require 'sinatra'
 require 'sinatra/reloader'
+require './helpers/check_user_guess'
 
 rand_num = rand(1..101)
 player_wins = 0
 
 get '/' do
   user_guess = params["guess"].to_i
-
+  game_message = check_user_guess(user_guess)
 
   if user_guess == rand_num
     message = "You have won, try to guess the new number!"
@@ -24,7 +25,7 @@ get '/' do
     message = "Please enter a number to begin the game"
   end
 
-  erb :index, :locals => {:rand_num => rand_num, :user_guess => user_guess, :message => message,
+  erb :index, :locals => {:rand_num => rand_num, :user_guess => user_guess, :message => game_message,
                           :win_count => player_wins}
   #throw params.inspect
 end
