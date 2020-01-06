@@ -13,11 +13,13 @@ get '/' do
   if params["cheat"]
     cheat_mode = rand_num
   end
-  
+
   if user_win(user_guess, rand_num)
     player_wins += 1
     rand_num = rand(1..100)
   end
+
+
 
 
 
