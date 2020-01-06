@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a85a6f7-64ba-4023-9117-86fee849172a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/WebGuesser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WebGuesser.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guesser.rb" beforeDir="false" afterPath="$PROJECT_DIR$/guesser.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.erb" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578335493440</updated>
       <workItem from="1578335495508" duration="120000" />
-      <workItem from="1578335662557" duration="788000" />
+      <workItem from="1578335662557" duration="1609000" />
     </task>
     <servers />
   </component>
@@ -64,5 +64,9 @@
       <screen x="0" y="22" width="3008" height="1631" />
     </state>
     <state x="1130" y="484" key="SettingsEditor/4088.-5.1920.1058/0.22.3008.1631/3008.-409.1080.1898@0.22.3008.1631" timestamp="1578335614452" />
+    <state x="1286" y="400" key="search.everywhere.popup" timestamp="1578337430915">
+      <screen x="0" y="22" width="3008" height="1631" />
+    </state>
+    <state x="1286" y="400" key="search.everywhere.popup/4088.-5.1920.1058/0.22.3008.1631/3008.-409.1080.1898@0.22.3008.1631" timestamp="1578337430915" />
   </component>
 </project>
