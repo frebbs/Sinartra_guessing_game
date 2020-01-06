@@ -9,7 +9,28 @@
 <body>
   <h1>This is the test page</h1>
   <p>Your random number is: <%= rand_num %></p>
-  <p>Another random number on each refresh: <%= rand(9999) %></p>
+  <p><%= message %></p>
+  <p>You entered: <%= params["guess"] %></p>
+
+  <form action="">
+    <label for="guess">Enter a guess:</label>
+    <input type="text" name="guess" /><br><br>
+    <input type="submit" value="Submit" />
+  </form>
+  <br>
+
+  <p>You have won: <%= win_count %> time(s)</p>
+  <%# if params["guess"].to_i == rand_num %>
+<!--    <p>You have won!</p>-->
+  <%# end %>
+
+  <%# if params["guess"].to_i > rand_num %>
+<!--    <p>Thats too high!</p>-->
+  <%# end %>
+
+  <%# if params["guess"].to_i < rand_num %>
+<!--    <p>Thats too low!</p>-->
+  <%# end %>
 
 </body>
 </html>
