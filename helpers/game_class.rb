@@ -24,7 +24,7 @@ class Game
 
   def user_win(guess, random_num)
     if guess == random_num
-      self.win_counter += 1
+      @win_counter += 1
       @random_number = rand(1..101)
       true
     else

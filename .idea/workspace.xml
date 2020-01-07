@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a85a6f7-64ba-4023-9117-86fee849172a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guesser.rb" beforeDir="false" afterPath="$PROJECT_DIR$/guesser.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helpers/game_class.rb" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/game_class.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +60,7 @@
       <workItem from="1578343332979" duration="6442000" />
       <workItem from="1578382417951" duration="220000" />
       <workItem from="1578418592829" duration="757000" />
-      <workItem from="1578432943479" duration="6193000" />
+      <workItem from="1578432943479" duration="6304000" />
     </task>
     <servers />
   </component>
