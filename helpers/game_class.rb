@@ -4,6 +4,7 @@ class Game
   #
   def initialize
     @random_number = rand(1..101)
+    puts random_number
   end
 
   def check_user_guess(guess, random_num)
