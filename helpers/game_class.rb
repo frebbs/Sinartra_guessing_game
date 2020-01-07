@@ -1,10 +1,9 @@
 class Game
-  attr_reader :random_number
+  attr_accessor :random_number, :player_wins, :cheat
   # Game class still needs to be completed
   #
   def initialize
     @random_number = rand(1..101)
-    puts random_number
   end
 
   def check_user_guess(guess, random_num)
