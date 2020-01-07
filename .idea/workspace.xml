@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a85a6f7-64ba-4023-9117-86fee849172a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/helpers/game_class.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/WebGuesser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WebGuesser.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guesser.rb" beforeDir="false" afterPath="$PROJECT_DIR$/guesser.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helpers/check_user_guess_helpers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/check_user_guess_helpers.rb" afterDir="false" />
@@ -27,7 +29,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -62,6 +64,7 @@
       <workItem from="1578335662557" duration="5932000" />
       <workItem from="1578343332979" duration="6442000" />
       <workItem from="1578382417951" duration="220000" />
+      <workItem from="1578418592829" duration="624000" />
     </task>
     <servers />
   </component>
@@ -69,9 +72,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1130" y="484" key="SettingsEditor" timestamp="1578335614452">
-      <screen x="0" y="22" width="3008" height="1631" />
+    <state x="631" y="297" key="SettingsEditor" timestamp="1578418620574">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="631" y="297" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1578418620573" />
     <state x="1130" y="484" key="SettingsEditor/4088.-5.1920.1058/0.22.3008.1631/3008.-409.1080.1898@0.22.3008.1631" timestamp="1578335614452" />
     <state x="1286" y="400" width="670" height="676" key="search.everywhere.popup" timestamp="1578339444986">
       <screen x="0" y="22" width="3008" height="1631" />
