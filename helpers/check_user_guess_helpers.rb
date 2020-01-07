@@ -22,8 +22,6 @@ def check_user_guess(guess, random_num)
   end
 end
 
-
-
 def cheat_mode_helper(x)
   if x
     true
