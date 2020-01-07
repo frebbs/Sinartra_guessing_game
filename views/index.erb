@@ -9,15 +9,17 @@
 </head>
 <body>
 <div class="container">
-  <section>
+  <section id="section_a">
     <h1>Guess the random number</h1>
     <p>When this page loaded, ruby generated a random number between 1 and 100, you need to enter a number
       between this range and guess the correct number to win the game</p><br>
     <p><%= message %></p>
     <p>You entered: <%= params["guess"] %></p>
+    <p>You have won: <%= win_count %> time(s)</p>
+    <p><%= cheat_mode %></p>
   </section>
 
-  <section>
+  <section id="section_b">
     <form action="">
       <label for="guess">Enter a guess:</label>
       <input type="text" name="guess" class="guess_input"/><br><br>
@@ -25,8 +27,7 @@
     </form>
   </section>
 
-  <p>You have won: <%= win_count %> time(s)</p>
-  <p><%= cheat_mode %></p>
+
 </div>
 </body>
 </html>

@@ -1,14 +1,29 @@
 body {
     background-color: darkslategray;
     color: white;
+    text-align: center;
 }
 
-div.container {
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 80%;
-    border: solid red 3px
+    margin: auto;
+}
+
+#section_a {
+    text-align: center;
+    padding: 5px;
+}
+
+#section_b {
+    text-align: center;
+    margin: 5px;
 }
 
 .guess_input {
-    background-color: darkslategray;
-    color: white;
+    background-color: lightcyan;
+    font-size: 1.2rem;
+    color: darkblue;
 }
